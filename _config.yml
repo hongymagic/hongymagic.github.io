@@ -1,0 +1,13 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+
+name: David Hong
+url: http://hon.gy
+description: hongy, hongers, hongymagic, whatever you like
+twitter: hongymagic
+github: hongymagic
+gravatar_url: http://www.gravatar.com/avatar/46068a67c1129be0dd0e4915f62b6677.png
