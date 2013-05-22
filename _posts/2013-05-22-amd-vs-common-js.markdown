@@ -1,17 +1,27 @@
 ---
 layout: post
-title: Let the blogging begin
+title: AMD vs. CommonJS
 category: posts
 ---
 
-Five commandments of blog posts:
+There's been a quite a lot of heated discussions surrounding [AMD][] and
+[CommonJS][] modules. What needs to be realised is that we tend to discuss
+these two in two separate notions:
 
-1. Thei shall be short
-2. Thei shall be opinionated
-3. Thei shall be frequent
-4. Thei shall be corrected
-5. Thei shall omit comments
+1. Module definition; and
+2. Module loading.
 
-> by [hongy][].
+Having used both [CommonJS][] and [AMD][] previously, personally, I would
+prefer the following:
+
+- Less ceremonal/verbose syntax of [CommonJS][];
+- *Optionally* load modules asynchornously like [AMD][].
+
+This behaviour should be consistent across anywhere JavaScript can be run ie.,
+browsers, rhino, node.js and more.
+
+*by [hongy][] with* ♥
 
 [hongy]: https://twitter.com/hongymagic
+[AMD]: http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition
+[CommonJS]: http://wiki.commonjs.org/wiki/Modules/1.0
