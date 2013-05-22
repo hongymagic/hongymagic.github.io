@@ -59,7 +59,7 @@ a {
 
 .content {
   max-width: 650px;
-  margin-left: 110px;
+  margin-left: 160px;
   margin-right: 20px;
   margin-bottom: 50px; }
   .content h1 {
@@ -123,7 +123,6 @@ a {
     background-repeat: repeat-x;
     margin: 2em 3em; }
   .content li {
-    margin-bottom: 10px;
     line-height: 1.4em; }
   .content blockquote {
     font-style: italic;
