@@ -15,10 +15,12 @@ Having used both [CommonJS][] and [AMD][] previously, personally, I would
 prefer the following:
 
 - Less ceremonal/verbose syntax of [CommonJS][];
-- *Optionally* load modules asynchornously like [AMD][].
+- *Optionally* load modules asynchronously like [AMD][].
 
 This behaviour should be consistent across anywhere JavaScript can be run ie.,
 browsers, rhino, node.js and more.
+
+- [TODO] Catch up on ES6 discussion thread on modules
 
 *by [hongy][] with* ♥
 
